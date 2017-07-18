@@ -1,0 +1,8 @@
+// PHP Taglarý Oluþturma //
+
+<?php
+
+
+?>
+
+// Kodlar bu iki tag ýn içine yazýlýr ..
