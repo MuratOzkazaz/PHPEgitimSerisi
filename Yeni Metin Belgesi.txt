@@ -1,8 +1,8 @@
-// PHP Tagları Oluşturma //
+// PHP TaglarÄ± OluÅŸturma //
 
 <?php
 
 
 ?>
 
-// Kodlar bu iki tag ın içine yazılır ..
+// Kodlar bu iki tag Ä±n iÃ§ine yazÄ±lÄ±r .. Ve hersey o iki tag Ä±n arasÄ±nda baslar..
