@@ -1,0 +1,20 @@
+***********************ders.php*************************************
+<form action="VeriSifreleme.php" method="post">
+    Yazýnýz : <br>
+    <input type="text" name="yazi"><br>
+    Kaçkere :<br>
+    <input type="text" name="kere"><br>
+    <input type="submit" value="Yolla">
+
+</form>
+
+****************************VeriSifreleme.php***********************
+<?php
+
+$yazý = $_POST["yazi"];
+$kere = $_POST["kere"];
+
+for ($i = 1; $i<=$kere; $i++)
+{
+    echo  "$i - $yazý<br>";
+}
