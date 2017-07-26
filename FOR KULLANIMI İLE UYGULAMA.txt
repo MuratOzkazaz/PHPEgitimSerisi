@@ -1,8 +1,8 @@
 ***********************ders.php*************************************
 <form action="VeriSifreleme.php" method="post">
-    Yazýnýz : <br>
+    Yaziniz : <br>
     <input type="text" name="yazi"><br>
-    Kaçkere :<br>
+    KaÃ§kere :<br>
     <input type="text" name="kere"><br>
     <input type="submit" value="Yolla">
 
@@ -11,10 +11,10 @@
 ****************************VeriSifreleme.php***********************
 <?php
 
-$yazý = $_POST["yazi"];
+$yazi = $_POST["yazi"];
 $kere = $_POST["kere"];
 
 for ($i = 1; $i<=$kere; $i++)
 {
-    echo  "$i - $yazý<br>";
+    echo  "$i - $yazi<br>";
 }
